@@ -1,0 +1,60 @@
+/* A Dropdown fő konténere */
+.Select-control {
+  background-color: #222; /* Sötét háttér */
+  border: 1px solid #444;
+}
+
+/* A kiválasztott elemek (multi-select módban) */
+.Select-value {
+  background-color: #d9ec4a !important; /* Kék háttér, mint a Bootstrap primary */
+  color: rgb(22, 22, 22) !important;
+  border: 1px solid #c8ff00 !important;
+}
+.Select-value-label {
+  color: rgb(29, 28, 28) !important;
+}
+
+/* A "törlés" (x) ikon a kiválasztott elemeken */
+.Select-value-icon {
+  border-right: 2px solid rgb(22, 22, 22) !important;
+}
+.Select-value-icon:hover {
+  background-color: #0f0f0f !important; /* Piros hover a törlésre */
+}
+
+/* A lenyíló menü */
+.Select-menu-outer {
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+/* A menüben lévő opciók */
+.Select-option {
+  background-color: #222;
+  color: #ccc;
+}
+
+/* Az opció, ami fölött az egér van */
+.Select-option.is-focused {
+  background-color: #121111;
+  color: white;
+}
+
+/* A lenyíló nyíl ikonja */
+.Select-arrow {
+  border-color: #ccc transparent transparent;
+  border-width: 5px 5px 2.5px;
+}
+.is-open .Select-arrow {
+  border-color: transparent transparent #ccc;
+  border-width: 0 5px 5px;
+}
+
+/* A placeholder és a beírt szöveg színe */
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  color: #e7e2e2;
+}
+.Select-input > input {
+  color: rgb(224, 219, 219) !important;
+}
